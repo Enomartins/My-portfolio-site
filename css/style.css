@@ -1,0 +1,119 @@
+body {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: transparent !important;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+
+#cover {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../images/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+    text-align: center !important;
+    color: white;
+}
+
+
+hr {
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #f4623a;
+}
+
+button {
+    padding: 1.25em 2.25em;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10em;
+    background-color: #f4623a;
+    color: white;
+}
+
+.section {
+    text-align: center;
+    padding: 8em 5em;
+    background-color: #f4623a;
+    color: white;
+}
+.section .about-text {
+    margin: auto;
+}
+
+.about-text button {
+    color: #f4623a;
+}
+.about-text hr {
+    border-color: white !important;
+}
+
+.portfolio img {
+    display: block;
+    width: 100%;
+    padding:  0 2em;
+    margin: 2em 0;
+}
+
+.portfolio a:hover {
+    color: #f4623a;
+}
+h2{
+    text-align: center;
+}
+
+.skills {
+    text-align: center;
+    padding: 6em 5em;
+    background-color: white;
+    color: #f4623a;
+}
+
+.col h6 {
+    color: black;
+}
+
+.tech img {
+    width: 100%;
+    padding:  0 2em;
+}
+
+.contact {
+    text-align: center;
+    background-size: cover;
+    background-color: #f4623a;
+    background-attachment: scroll;
+    color: white;
+}
+.contact a {
+    color: white;
+}
+a:hover {
+    text-decoration: none;
+}
+.contact img {
+    width: 25%;
+    margin:1em 2em;
+    border-radius: 1em;
+}
+footer {
+    text-align: center;
+    color: #f4623a;
+}
